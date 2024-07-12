@@ -1,5 +1,5 @@
 /*Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family= Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900 &family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 
 /*Asterisk wilcard selector to overide default styles added by the browser */
 * {
@@ -89,7 +89,7 @@ main {
     background-color: lightblue;
     /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
-    margin-top: 40px;
+    margin-top: 47px;
 }
 
 /*Footer content design*/
@@ -130,5 +130,12 @@ footer {
     main {
         /*Push main content down to accomodate larger header*/
         margin-top: 79px;
+    }
+}
+
+/*large devices (laptops and desktops, 992px and up)*/
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
     }
 }
