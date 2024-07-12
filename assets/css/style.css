@@ -1,0 +1,21 @@
+/*Asterisk wilcard selector to overide default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Header content design*/
+header {
+    background-color: lightcoral;
+}
+
+/*Main content design*/
+main {
+    background-color: lightblue;
+}
+
+/*Footer content design*/
+footer {
+    background-color: orange;
+}
